@@ -1,0 +1,59 @@
+html, body{
+  font-family: 'Noto Sans JP', sans-serif;
+  word-break: break-all;
+}
+
+select .placeholder{
+  color: #212529;
+}
+
+
+
+label.form-label.required::after{
+  content: "必須";
+  font-size: 0.7rem;
+  line-height: 0;
+  padding: 3px 5px;
+  margin-left: 10px;
+  border-radius: 5px;
+  color: #FFFFFF;
+  background-color: #CC3300;
+}
+
+.error-message{
+  color: #CC3300;
+  margin-bottom: 0;
+}
+
+.image_form{
+  padding: 10px;
+}
+
+.image_form img{
+  max-width: 50px;
+  height: auto;
+}
+
+.image_preview{
+  max-width: 200px;
+  height: auto;
+}
+
+.container .table{
+  vertical-align: middle;
+}
+
+.card-header{
+  display: flex;
+  align-items: center;
+}
+
+.card-header h1{
+  font-size: 1.5em;
+  margin: 0;
+  padding: 0;
+}
+
+.logout{
+  text-align: right;
+}
